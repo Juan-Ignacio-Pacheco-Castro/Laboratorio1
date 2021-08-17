@@ -1,17 +1,12 @@
-﻿@{
-    ViewBag.Title = "Contact";
-}
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+﻿<h1>Página de contacto de la Rama Nueva</h1>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<p>
+    Ahora tendrá un contenido muy diferente al que tiene la rama Master...
+</p>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<p>
+    @for(int i = 1; i <= 10; ++i)
+    {
+        <h4>Soy el número: <strong>@i</strong></h4>
+    }
+</p>
