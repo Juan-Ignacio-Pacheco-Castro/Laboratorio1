@@ -8,6 +8,7 @@ namespace Laboratorio1Web.Controllers
 {
     public class HomeController : Controller
     {
+        //Comentario
         public ActionResult Index()
         {
             return View();
