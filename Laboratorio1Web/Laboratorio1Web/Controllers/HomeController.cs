@@ -11,6 +11,7 @@ namespace Laboratorio1Web.Controllers
         //Comentario
         public ActionResult Index()
         {
+            const i = 0;
             return View();
         }
 
